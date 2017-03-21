@@ -1,0 +1,36 @@
+*{
+  background-color: #F5EFEF;
+}
+
+.menu{
+  background-color: #714439;
+  color: #F5EFEF;
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.item ,.item a{
+  background: #536A73 ;
+}
+
+.item{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.item a{
+  height: 1vh;
+  width: 1vw;
+}
+
+.item::before{
+  position: absolute;
+content: '';
+top: 0%;
+height: inherit;
+width: 1px;
+background: rgba(34, 36, 38, 0.1);
+}
