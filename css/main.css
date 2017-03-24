@@ -2,35 +2,45 @@
   background-color: #F5EFEF;
 }
 
+.all{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.head img{
+  display: flex;
+  width: 80vw;
+}
+
 .menu{
   background-color: #714439;
   color: #F5EFEF;
   display: flex;
-  margin-left: 5vw;
-  margin-right: 5vw;
-}
-
-.item ,.item a{
-  background: #536A73 ;
 }
 
 .item{
+  background: #536A73 ;
   padding-left: 1vw;
   padding-right: 1vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  width: 12vw;
+  text-align: center;
+  /*font-size: 1.25vw;*/
+  font-size: 16px;
 }
 
-.item a{
-  height: 1vh;
-  width: 1vw;
+.item:hover{
+  background-color: #000;
 }
 
-.item::before{
+/*.item::before{
   position: absolute;
 content: '';
 top: 0%;
 height: inherit;
 width: 1px;
 background: rgba(34, 36, 38, 0.1);
-}
+}*/
