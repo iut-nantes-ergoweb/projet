@@ -44,3 +44,8 @@ height: inherit;
 width: 1px;
 background: rgba(34, 36, 38, 0.1);
 }*/
+
+.defile img{
+  width: 100%;
+  height: 35vw;
+}
