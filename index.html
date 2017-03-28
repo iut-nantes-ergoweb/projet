@@ -34,11 +34,32 @@
         </div> -->
 
         <div class="defile">
-          <img src="res/img/15-reference-fTq.jpg" alt="img1" />
-          <img src="res/img/15-reference-g3i.jpg" hidden="" alt="img2" />
-          <img src="res/img/15-reference-rvo.jpg" hidden="" alt="img3" />
-          <img src="res/img/15-reference-xpp.jpg" hidden="" alt="img4" />
+          <img src="res/img/15-reference-fTq.jpg" alt="img1" class="diapos" />
+          <img src="res/img/15-reference-g3i.jpg" alt="img2" class="diapos"/>
+          <img src="res/img/15-reference-rvo.jpg" alt="img3" class="diapos" />
+          <img src="res/img/15-reference-xpp.jpg" alt="img4" class="diapos" />
         </div>
+
+      </div>
+
+    </div>
+
+    <script>
+      var index = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("diapos");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          index++;
+          if (index > x.length) {index = 1}    
+          x[index-1].style.display = "block";  
+          setTimeout(carousel, 7250);
+      }
+    </script>
 
         <div class="article">
           <h1>Bienvenue au bar à huîtres Fleurs des Flots</h1>
