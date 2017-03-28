@@ -19,7 +19,7 @@
 .head{
   display: flex;
   width: 100%;
-  height: 25vh;
+  height: 10vw;
   background: url("../res/img/bandeau-1.jpg");
   /*background-repeat: no-repeat;*/
   background-size: cover;
@@ -55,6 +55,20 @@
   background-color: #7b8b91;
 }
 
+<<<<<<< HEAD
+.article{
+  text-align: center;
+}
+
+.article h1{
+  font-size: 36px;
+}
+
+.article p{
+  font-size: 20px;
+}
+
+=======
 .menu .item, .footer .item{
   background-color: #714439;
 }
@@ -68,6 +82,7 @@
 }
 
 
+>>>>>>> 74588bd4955c7096e7b633c9565f32187aec4bc2
 /*.item::before{
   position: absolute;
 content: '';
