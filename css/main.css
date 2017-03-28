@@ -4,18 +4,35 @@
 
 .all{
   width: 80vw;
+  height: 100vh;
   margin: auto;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
 }
 
-.head img{
+/*.head img{
   display: flex;
   width: 80vw;
+}*/
+.head{
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  background: url("../res/img/bandeau-1.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  background-position: 0 50%
 }
 
-.menu{
+.head img{
+  width: 12vw;
+  height: 10vw;
+  background-color: transparent;
+}
+
+.menu,.footer{
   background-color: #714439;
   color: #F5EFEF;
   display: flex;
@@ -31,14 +48,14 @@
   padding-bottom: 1vh;
   width: 12vw;
   text-align: center;
-  /*font-size: 1.25vw;*/
-  font-size: 16px;
+  font-size: 2vw;
 }
 
 .item:hover{
-  background-color: #000;
+  background-color: #7b8b91;
 }
 
+<<<<<<< HEAD
 .article{
   text-align: center;
 }
@@ -51,6 +68,22 @@
   font-size: 20px;
 }
 
+=======
+.menu .item, .footer .item{
+  background-color: #714439;
+}
+
+.menu .item:hover,.footer .item:hover{
+  background-color: #8e6d65;
+}
+
+.footer{
+  height: auto;
+  align-self:flex-end;
+}
+
+
+>>>>>>> 74588bd4955c7096e7b633c9565f32187aec4bc2
 /*.item::before{
   position: absolute;
 content: '';
