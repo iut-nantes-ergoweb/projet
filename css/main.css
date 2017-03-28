@@ -28,7 +28,7 @@
   z-index: 10;
 }
 
-.menu{
+.menu,.footer{
   background-color: #714439;
   color: #F5EFEF;
   display: flex;
@@ -47,13 +47,22 @@
   font-size: 2vw;
 }
 
-.menu .item{
+.item:hover{
+  background-color: #7b8b91;
+}
+
+.menu .item, .footer .item{
   background-color: #714439;
 }
 
-.item:hover{
-  background-color: #000;
+.menu .item:hover,.footer .item:hover{
+  background-color: #8e6d65;
 }
+
+.footer{
+  align-self:flex-end;
+}
+
 
 /*.item::before{
   position: absolute;
