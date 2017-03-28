@@ -55,7 +55,7 @@
   background-color: #7b8b91;
 }
 
-<<<<<<< HEAD
+
 .article{
   text-align: center;
 }
@@ -68,7 +68,7 @@
   font-size: 20px;
 }
 
-=======
+
 .menu .item, .footer .item{
   background-color: #714439;
 }
@@ -83,7 +83,6 @@
 }
 
 
->>>>>>> 74588bd4955c7096e7b633c9565f32187aec4bc2
 /*.item::before{
   position: absolute;
 content: '';
