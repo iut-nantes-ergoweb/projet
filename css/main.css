@@ -7,6 +7,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .head img{
@@ -18,6 +19,8 @@
   background-color: #714439;
   color: #F5EFEF;
   display: flex;
+  font-size: 1.25vw;
+  font-family: 'Kalam', cursive;
 }
 
 .item{
