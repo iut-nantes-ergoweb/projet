@@ -64,7 +64,7 @@
 }
 
 .footer{
-  height: auto;
+  min-height: inherit;
   align-self:flex-end;
 }
 
