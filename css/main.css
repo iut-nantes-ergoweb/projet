@@ -39,6 +39,18 @@
   background-color: #000;
 }
 
+.article{
+  text-align: center;
+}
+
+.article h1{
+  font-size: 36px;
+}
+
+.article p{
+  font-size: 20px;
+}
+
 /*.item::before{
   position: absolute;
 content: '';
