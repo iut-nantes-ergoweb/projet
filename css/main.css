@@ -105,8 +105,18 @@ body{
   background-color: #886D66;
 }
 
+.bouton{
+  padding: 5px 10px;
+  background: #0074C9;
+  color: #F5EFEF;
+  font-size: 20px;
+  border-radius: 9px;
+  border: none;
+}
 
-
+.bouton:hover{
+  background: #88BDDA;
+}
 
 /*.item::before{
   position: absolute;
