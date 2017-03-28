@@ -71,21 +71,30 @@ body{
 
 
 .article{
+  padding: 3vw;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #4e4e4e;
   background-color: #F5EFEF;
 }
 
+.article .illustration{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.article *{
+  background-color: #F5EFEF;
+}
+
 .article h1{
   font-size: 36px;
   font-family: 'Kalam', cursive;
-  background-color: #F5EFEF;
 }
 
 .article p{
   font-size: 20px;
-  background-color: #F5EFEF;
 }
 
 .menu .item, .footer .item{
