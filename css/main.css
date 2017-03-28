@@ -2,7 +2,7 @@
   background-color: #F5EFEF;
 }
 
-.all{
+body{
   width: 80vw;
   height: 100vh;
   margin: auto;
@@ -58,10 +58,13 @@
 
 .article{
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
 }
 
 .article h1{
   font-size: 36px;
+  font-family: 'Kalam', cursive;
 }
 
 .article p{
@@ -75,10 +78,6 @@
 
 .menu .item:hover,.footer .item:hover{
   background-color: #8e6d65;
-}
-
-.footer{
-  align-self:flex-end;
 }
 
 
@@ -97,12 +96,12 @@ background: rgba(34, 36, 38, 0.1);
 }
 
 footer{
-  width: 80vw;
-  height: 5vh;
-  margin: auto;
   background-color: #714439;
   display: flex;
+  width: 100%;
+  margin: auto;
   flex-direction: row;
+  align-self:flex-end;
 }
 
 footer div{
