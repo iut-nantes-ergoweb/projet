@@ -35,6 +35,10 @@
   font-size: 16px;
 }
 
+.menu .item{
+  background-color: #714439;
+}
+
 .item:hover{
   background-color: #000;
 }
