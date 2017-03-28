@@ -44,8 +44,11 @@
   padding-bottom: 1vh;
   width: 12vw;
   text-align: center;
-  /*font-size: 1.25vw;*/
-  font-size: 16px;
+  font-size: 2vw;
+}
+
+.menu .item{
+  background-color: #714439;
 }
 
 .item:hover{
