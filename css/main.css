@@ -1,12 +1,13 @@
 *{
-  background-color: #F5EFEF;
+  background-color: #C5C5C5;
 }
 
 body{
-  width: 80vw;
+  width: 100%;
   height: 100vh;
   margin: auto;
   margin-bottom: 0;
+  align-items: center;
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
@@ -32,6 +33,12 @@ body{
   background-color: transparent;
 }
 
+.contenu{
+  width: 84vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
 .menu,.footer{
   background-color: #714439;
   color: #F5EFEF;
@@ -40,12 +47,19 @@ body{
   font-family: 'Kalam', cursive;
 }
 
+.menu{
+  width: 100%;
+  padding-left: 12.5%;
+}
+
+.menu div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .item{
   background: #536A73 ;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding: 1vw;
   width: 12vw;
   text-align: center;
   font-size: 2vw;
@@ -60,25 +74,29 @@ body{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #4e4e4e;
+  background-color: #F5EFEF;
 }
 
 .article h1{
   font-size: 36px;
   font-family: 'Kalam', cursive;
+  background-color: #F5EFEF;
 }
 
 .article p{
   font-size: 20px;
+  background-color: #F5EFEF;
 }
-
 
 .menu .item, .footer .item{
   background-color: #714439;
 }
 
-.menu .item:hover,.footer .item:hover{
-  background-color: #8e6d65;
+.menu .item:hover, .footer .item:hover{
+  background-color: #886D66;
 }
+
+
 
 
 /*.item::before{

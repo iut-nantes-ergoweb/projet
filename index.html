@@ -23,52 +23,55 @@
           <a id="menu7" class="item" href="" title="Contacter Fleurs des Flots">Contact</a>
       </div>
 
-      <div id="contenu">
+      <div class="contenu">
 
-        <!-- <div id="desc">
-          Bienvenue au bar à huîtres Fleurs des Flots au Port des Brochets à Bouin. </br>
-          Découvrez nos assiettes d'huîtres,  notre assiette de la mer, seiche,
-          ou encore nos sardines de Saint-Gilles Croix-de-Vie
-          et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.
-        </div> -->
 
-        <div class="defile">
-          <img src="res/img/15-reference-fTq.jpg" alt="img1" class="diapos" />
-          <img src="res/img/15-reference-g3i.jpg" alt="img2" class="diapos"/>
-          <img src="res/img/15-reference-rvo.jpg" alt="img3" class="diapos" />
-          <img src="res/img/15-reference-xpp.jpg" alt="img4" class="diapos" />
+        <div id="diapo">
+
+          <!-- <div id="desc">
+            Bienvenue au bar à huîtres Fleurs des Flots au Port des Brochets à Bouin. </br>
+            Découvrez nos assiettes d'huîtres,  notre assiette de la mer, seiche,
+            ou encore nos sardines de Saint-Gilles Croix-de-Vie
+            et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.
+          </div> -->
+
+          <div class="defile">
+            <img src="res/img/15-reference-fTq.jpg" alt="img1" class="diapos" />
+            <img src="res/img/15-reference-g3i.jpg" alt="img2" class="diapos"/>
+            <img src="res/img/15-reference-rvo.jpg" alt="img3" class="diapos" />
+            <img src="res/img/15-reference-xpp.jpg" alt="img4" class="diapos" />
+          </div>
+
         </div>
 
-      </div>
 
+        <script>
+          var index = 0;
+          carousel();
 
-    <script>
-      var index = 0;
-      carousel();
-
-      function carousel() {
-          var i;
-          var x = document.getElementsByClassName("diapos");
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("diapos");
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+              }
+              index++;
+              if (index > x.length) {index = 1}
+              x[index-1].style.display = "block";
+              setTimeout(carousel, 7250);
           }
-          index++;
-          if (index > x.length) {index = 1}
-          x[index-1].style.display = "block";
-          setTimeout(carousel, 7250);
-      }
-    </script>
+        </script>
 
-        <div class="article">
-          <h1>Bienvenue au bar à huîtres Fleurs des Flots</h1>
-          <img src="res/img/cassolette-de-fruits.jpg"/>
-          <img src="res/img/imaginative-trio-of-caramel.jpg"/>
-          <p>Idéalement positionné au Port des Brochets à Bouin.
-            Découvrez nos assiettes d'huîtres, notre assiette de la mer, seiche, ou encore nos sardines
-            de Saint-Gilles Croix-de-Vie et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.</p>
-        </div>
+          <div class="article">
+            <h1>Bienvenue au bar à huîtres Fleurs des Flots</h1>
+            <img src="res/img/cassolette-de-fruits.jpg"/>
+            <img src="res/img/imaginative-trio-of-caramel.jpg"/>
+            <p>Idéalement positionné au Port des Brochets à Bouin.
+              Découvrez nos assiettes d'huîtres, notre assiette de la mer, seiche, ou encore nos sardines
+              de Saint-Gilles Croix-de-Vie et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.</p>
+          </div>
+
       </div>
-
     </div>
   </body>
   <footer>
