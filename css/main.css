@@ -49,7 +49,15 @@ body{
 
 .menu{
   width: 100%;
-  padding-left: 12.5%;
+  /*padding-left: 12.5%;*/
+}
+
+.fixMenu{
+  /*width: 84vw;*/
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
+  background: transparent;
 }
 
 .menu div{
@@ -60,7 +68,7 @@ body{
 .item{
   background: #536A73 ;
   padding: 1vw;
-  width: 12vw;
+  /*width: 12vw;*/
   text-align: center;
   font-size: 2vw;
 }
