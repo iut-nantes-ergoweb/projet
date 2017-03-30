@@ -68,7 +68,7 @@ body{
 .item{
   background: #536A73 ;
   padding: 1vw;
-  /*width: 12vw;*/
+  width: 12vw;
   text-align: center;
   font-size: 2vw;
 }
