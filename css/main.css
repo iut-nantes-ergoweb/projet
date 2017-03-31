@@ -134,18 +134,6 @@ body{
   background-color: #886D66;
 }
 
-.bouton{
-  padding: 5px 10px;
-  background: #0074C9;
-  color: #F5EFEF;
-  font-size: 20px;
-  border-radius: 9px;
-  border: none;
-}
-
-.bouton:hover{
-  background: #88BDDA;
-}
 
 /*.item::before{
   position: absolute;
@@ -162,10 +150,39 @@ background: rgba(34, 36, 38, 0.1);
 }
 
 
+textarea, .contact textarea {
+  background-color: #788EA5;
+}
 .contact *{
   background-color: #F5EFEF;
 }
 
+input[type="text"], input[type="email"], textarea {
+  display: block;
+  background: #788EA5;
+  padding: 5px 10px;
+  margin: 0;
+  width: 100%;
+  color: #F5EFEF;
+  /*appearance: none;*/
+  font-size: 20px;
+  box-shadow: none;
+  border-radius: 9px;
+}
+
+
+.bouton, .contact.bouton{
+  padding: 5px 10px;
+  background: #0074C9;
+  color: #F5EFEF;
+  font-size: 20px;
+  border-radius: 9px;
+  border: none;
+}
+
+.bouton:hover{
+  background: #88BDDA;
+}
 
 .form{
   padding: 3vw;
