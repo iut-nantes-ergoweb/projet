@@ -33,10 +33,17 @@ body{
   background-color: transparent;
 }
 
-.contenu{
+.contenu, .contact{
   width: 84vw;
   padding-left: 4vw;
   padding-right: 4vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+
+.contact{
+  flex-direction: row;
 }
 
 .menu,.footer{
@@ -66,16 +73,16 @@ body{
 }
 
 .item{
-  background: #536A73 ;
+  /*background: #536A73 ;*/
   padding: 1vw;
   width: 12vw;
   text-align: center;
   font-size: 2vw;
 }
 
-.item:hover{
+/*.item:hover{
   background-color: #7b8b91;
-}
+}*/
 
 
 .article{
@@ -109,7 +116,7 @@ body{
   background-color: #714439;
 }
 
-.menu .item:hover, .footer .item:hover{
+.menu .item:hover, .footer .item:hover, .menu .curent{
   background-color: #886D66;
 }
 
@@ -152,4 +159,11 @@ footer{
 footer div{
   margin-left: auto;
   margin-right: auto;
+}
+
+#img404{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 30vw;
 }

@@ -17,74 +17,59 @@
       <div id="menu" class="menu">
         <div class="fixMenu">
             <a id="menu1" class="item" href="index.html" title="Bar à huîtres à Bouin en Vendée : Fleurs des Flots">Accueil</a>
-            <a id="menu2" class="item" href="" title="Historique Fleurs des Flots">Historique</a>
-            <a id="menu3" class="item" href="" title="Production d'huîtres en Vendée">Production</a>
-            <a id="menu4" class="item" href="" title="Bar à huîtres à Bouin en Vendée">Bar à huîtres</a>
-            <a id="menu6" class="item" href="" title="Partenaires Fleurs des Flots">Partenaires</a>
-            <a id="menu7" class="item" href="" title="Contacter Fleurs des Flots">Contact</a>
+            <a id="menu2" class="item" href="404.html" title="Historique Fleurs des Flots">Historique</a>
+            <a id="menu3" class="item" href="404.html" title="Production d'huîtres en Vendée">Production</a>
+            <a id="menu4" class="item" href="404.html" title="Bar à huîtres à Bouin en Vendée">Bar à huîtres</a>
+            <a id="menu6" class="item" href="404.html" title="Partenaires Fleurs des Flots">Partenaires</a>
+            <a id="menu7" class="item curent" href="" title="Contacter Fleurs des Flots">Contact</a>
         </div>
       </div>
 
-      <div class="contenu">
-
-
-        <div id="diapo">
-
-          <!-- <div id="desc">
-            Bienvenue au bar à huîtres Fleurs des Flots au Port des Brochets à Bouin. </br>
-            Découvrez nos assiettes d'huîtres,  notre assiette de la mer, seiche,
-            ou encore nos sardines de Saint-Gilles Croix-de-Vie
-            et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.
-          </div> -->
-
-          <div class="defile">
-            <img src="res/img/15-reference-fTq.jpg" alt="img1" class="diapos" />
-            <img src="res/img/15-reference-g3i.jpg" alt="img2" class="diapos"/>
-            <img src="res/img/15-reference-rvo.jpg" alt="img3" class="diapos" />
-            <img src="res/img/15-reference-xpp.jpg" alt="img4" class="diapos" />
+      <div class="contact">
+          <div class="map">
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-2.0316660404205327%2C46.996880246672404%2C-2.027159929275513%2C46.99954374149078&amp;layer=mapnik&amp;marker=46.99821201067779%2C-2.0294129848480225" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=46.99821&amp;mlon=-2.02941#map=18/46.99821/-2.02941">View Larger Map</a></small>
           </div>
 
-        </div>
+          <form class="form" action="index.html" method="post">
+              *:champs obligatoire
+              <br>
+              <br>
+              <label for="email">E-mail:*</label>
+              <input type="text" name="email" value="" required="">
 
+              <br>
+              <br>
 
-        <script>
-          var index = 0;
-          carousel();
+              <label for="nom">Nom:*</label>
+              <input type="text" name="nom" value="" required="">
 
-          function carousel() {
-              var i;
-              var x = document.getElementsByClassName("diapos");
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";
-              }
-              index++;
-              if (index > x.length) {index = 1}
-              x[index-1].style.display = "block";
-              setTimeout(carousel, 7250);
-          }
-        </script>
+              <br>
+              <br>
 
-          <div class="article">
-            <h1>Bienvenue au bar à huîtres Fleurs des Flots!</h1>
-            <div class="illustration">
-              <img src="res/img/cassolette-de-fruits.jpg"/>
-              <img src="res/img/imaginative-trio-of-caramel.jpg"/>
-            </div>
-            <p>Idéalement positionné au Port des Brochets à Bouin.
-              Découvrez nos assiettes d'huîtres, notre assiette de la mer, seiche, ou encore nos sardines
-              de Saint-Gilles Croix-de-Vie et NOUVEAUTE 2016 PLATEAUX DE FRUITS DE MER sur réservation.</p>
-            <button type="button" name="button" class="bouton">En savoir plus</button>
-          </div>
+              <label for="telephone:">Téléphone:</label>
+              <input type="text" name="telephone" value="">
+
+              <br>
+              <br>
+
+              <label for="objet">Objet:*</label>
+              <input type="text" name="objet" value="" required="">
+
+              <br>
+              <br>
+
+              <label for="message">Message:*</label>
+              <input type="text" name="message" value="">
+          </form>
 
       </div>
-    </div>
   </body>
   <footer>
     <div class="footer">
-      <a href="#" class="item">Copyright</a>
-      <a href="#" class="item">Liens</a>
-      <a href="#" class="item">Mentions légales</a>
-      <a href="#" class="item">Contact</a>
+      <a href="404.html" class="item">Copyright</a>
+      <a href="404.html" class="item">Liens</a>
+      <a href="404.html" class="item">Mentions légales</a>
+      <a href="404.html" class="item">Contact</a>
     </div>
   </footer>
 </html>
