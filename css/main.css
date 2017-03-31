@@ -7,9 +7,9 @@ body{
   height: 100vh;
   margin: auto;
   margin-bottom: 0;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,6 +25,7 @@ body{
   /*background-repeat: no-repeat;*/
   background-size: cover;
   background-position: 0 50%
+  flex: 0 1 auto;;
 }
 
 .head img{
@@ -33,17 +34,26 @@ body{
   background-color: transparent;
 }
 
-.contenu, .contact{
+.contenu{
   width: 84vw;
   padding-left: 4vw;
   padding-right: 4vw;
   display: flex;
   flex-direction: column;
-  margin: auto
+  background-color: #F5EFEF;
+  margin: auto;
+  flex: 1 1 auto;;
 }
 
 .contact{
+  /*width: 84vw;*/
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
   flex-direction: row;
+  margin: auto;
+  background-color: #F5EFEF;
+  color: #4e4e4e;
 }
 
 .menu,.footer{
@@ -151,13 +161,30 @@ background: rgba(34, 36, 38, 0.1);
   height: 35vw;
 }
 
+
+.contact *{
+  background-color: #F5EFEF;
+}
+
+
+.form{
+  padding: 3vw;
+  text-align: center;
+  background-color: #F5EFEF;
+}
+
+.form label{
+  background-color: #F5EFEF;
+}
+
 footer{
   background-color: #714439;
   display: flex;
   width: 100%;
   margin: auto;
   flex-direction: row;
-  align-self:flex-end;
+  /*align-self:flex-end;*/
+  flex: 0 1 auto;
 }
 
 footer div{
