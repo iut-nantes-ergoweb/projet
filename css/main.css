@@ -99,6 +99,10 @@ body{
   align-items: baseline;
 }
 
+.illustration img{
+    width: 50%;
+}
+
 .article *{
   background-color: #F5EFEF;
 }
