@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Fleurs des Flots</title>
+
     <link rel="icon" type="image/png" href="res/img/icone.png" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans" rel="stylesheet">
+
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
-  <body>
+  <body onload="carousel()">
 
       <div class="head">
         <img src="res/img/logo.png" alt="logo"/>
@@ -47,22 +50,22 @@
         </div>
 
 
-        <script>
-          var index = 0;
-          carousel();
-
-          function carousel() {
-              var i;
-              var x = document.getElementsByClassName("diapos");
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";
-              }
-              index++;
-              if (index > x.length) {index = 1}
-              x[index-1].style.display = "block";
-              setTimeout(carousel, 7250);
-          }
-        </script>
+         <script>
+        //   var index = 0;
+        //   carousel();
+        //
+        //   function carousel() {
+        //       var i;
+        //       var x = document.getElementsByClassName("diapos");
+        //       for (i = 0; i < x.length; i++) {
+        //          x[i].style.display = "none";
+        //       }
+        //       index++;
+        //       if (index > x.length) {index = 1}
+        //       x[index-1].style.display = "block";
+        //       setTimeout(carousel, 7250);
+        //   }
+         </script>
 
           <div class="article">
             <h1>Bienvenue au bar à huîtres Fleurs des Flots!</h1>
