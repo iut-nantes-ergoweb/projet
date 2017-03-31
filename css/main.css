@@ -109,6 +109,10 @@ body{
   align-items: baseline;
 }
 
+.illustration img{
+    width: 50%;
+}
+
 .article *{
   background-color: #F5EFEF;
 }
@@ -126,7 +130,7 @@ body{
   background-color: #714439;
 }
 
-.menu .item:hover, .footer .item:hover, .menu .curent{
+.menu .item:hover, .footer .item:hover, .menu .curent, .footer .curent{
   background-color: #886D66;
 }
 
